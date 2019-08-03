@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chengshuodage/config-repo
+          username: chengshuodage
+          password: chengshuo.123
+#          basedir:  C:/Config/basedir //下载到指定目录
